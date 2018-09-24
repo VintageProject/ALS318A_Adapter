@@ -158,12 +158,12 @@
     (add_net /Seg_2h)
   )
 
-  (module Thilo_Lib:ALS318A_BubbleLED_2.5mm (layer F.Cu) (tedit 5BA91BA1) (tstamp 5BA9BEDE)
+  (module Thilo_Lib:ALS318A_BubbleLED_2.5mm (layer F.Cu) (tedit 5BA92515) (tstamp 5BA9BEDE)
     (at 102.87 77.216)
     (descr "Through hole straight pin header, 1x17, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x17 2.54mm single row")
     (path /5B558978)
-    (fp_text reference J1 (at -5.08 -3.51) (layer F.SilkS)
+    (fp_text reference J1 (at -5.08 -3.51) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ALS318A (at -1.27 -1.986) (layer F.SilkS)
@@ -233,7 +233,7 @@
     )
   )
 
-  (module Thilo_Lib:3461AS-BS_4x7SEG-DIGIT_9mm (layer F.Cu) (tedit 5B572497) (tstamp 5B55AD6C)
+  (module Thilo_Lib:3461AS-BS_4x7SEG-DIGIT_9mm (layer F.Cu) (tedit 5BA9250A) (tstamp 5B55AD6C)
     (at 86.36 67.31)
     (descr "LED Display 4x7 segments")
     (tags 3461AS)
@@ -241,7 +241,7 @@
     (fp_text reference LED1 (at 12.7 -4.318) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CC56-12 (at 0 8.89) (layer F.Fab)
+    (fp_text value CC56-12 (at 0 8.89) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -7) (end 15 -7) (layer F.SilkS) (width 0.15))
@@ -276,7 +276,7 @@
       (net 2 /CC2))
   )
 
-  (module Thilo_Lib:3461AS-BS_4x7SEG-DIGIT_9mm (layer F.Cu) (tedit 5B572481) (tstamp 5B55AD82)
+  (module Thilo_Lib:3461AS-BS_4x7SEG-DIGIT_9mm (layer F.Cu) (tedit 5BA9250E) (tstamp 5B55AD82)
     (at 116.84 67.31)
     (descr "LED Display 4x7 segments")
     (tags 3461AS)
@@ -284,7 +284,7 @@
     (fp_text reference LED2 (at -12.7 -4.318) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CC56-12 (at 0 8.89) (layer F.Fab)
+    (fp_text value CC56-12 (at 0 8.89) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -7) (end 15 -7) (layer F.SilkS) (width 0.15))
